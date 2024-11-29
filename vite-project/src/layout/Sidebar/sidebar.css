@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Abril+Fatface&family=Alegreya+Sans+SC&family=Bebas+Neue&family=Cinzel&family=Concert+One&family=Dancing+Script&family=Explora&family=Great+Vibes&family=Kanit:wght@100&family=Mitr&family=My+Soul&family=Noto+Sans+KR:wght@100&family=Orbitron&family=Pacifico&family=Poppins:wght@500&family=Prompt:ital,wght@1,300&family=Sevillana&family=Spectral+SC&family=Tilt+Prism&display=swap');
+/*
+font-family: 'Aboreto', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Explora', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'My Soul', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sevillana', cursive;
+font-family: 'Spectral SC', serif;
+font-family: 'Tilt Prism', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Mitr', sans-serif;
+font-family: 'Concert One', cursive;
+font-family: 'Dancing Script', cursive;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    
+}
+.main{
+    margin: 0 auto;
+}
+.sidebar{
+    border-radius: 3px;
+    background: rgb(255, 255, 255);
+    border: 1px solid #6D9588;
+    height: 640px;
+    color: #6D9588;
+    width: 220px;
+    margin: 2rem auto 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+.info-name{
+    padding:1rem  0;
+}
+.head{
+    background: #6D9588;
+    color: rgb(255, 255, 255);
+    padding: 0.4rem 3rem;
+    border-radius: 2px;  
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+
+.nav-list li{
+    padding:0.6rem 3rem;
+}
+.nav-list li:hover{
+    background: #c2cac8;
+    color: rgb(252, 217, 217);
+}
+.nav-list a{
+    color: #6D9588;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    
+}
+.nav-list li{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.nav-list li a{
+    margin: 0 0.5rem;
+}

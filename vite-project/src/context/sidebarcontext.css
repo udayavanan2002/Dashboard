@@ -1,0 +1,47 @@
+.nav{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+.header{
+  
+}
+.header-content{
+    margin: 0 auto;
+    width:1490px;
+    padding: 0.5rem 0;
+    background: #6D9588;
+    border:  1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .menu{
+        display: flex;
+    }
+    .menu li{
+        border:  1px solid #ffffff;
+        margin: 0.5rem 0.5rem;
+        padding: 0.1rem 0.2rem;
+        background: #ffffff;
+        border-radius: 50%;
+        text-align: center;
+    }
+    .menu li:first-child{
+       padding: 0.2rem 0.4rem;
+       padding-top: 0.3rem;
+    }
+    .menu li:nth-child(2){
+        padding: 0.2rem 0.4rem;
+        padding-top: 0.3rem;
+     }
+    .menu li:last-child{
+        padding: 0.1rem 0.4rem;
+        padding-top: 0.2rem;
+     }
+    .nav h1{
+        color: #ffffff;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 0.5rem
+    }
